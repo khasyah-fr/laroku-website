@@ -354,6 +354,11 @@ footer .social  a{
     }
 }
 
+.hidden {
+    visibility: hidden;
+    height: 0;
+}
+
 /* Mobile */
 @media(max-width: 512px) {
     .navbar {
