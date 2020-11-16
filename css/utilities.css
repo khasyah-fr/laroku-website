@@ -1,0 +1,218 @@
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  overflow: auto;
+  padding: 0 40px;
+}
+
+.card {
+  background-color: var(--sec-text-color);
+  color: var(--prim-text-color);
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  margin: 10px;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.grid-3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 30px;
+  cursor: pointer;
+  background-color: var(--prim-bg-color);
+  color: var(--sec-text-color);
+  border: none;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  transform: scale(0.9);
+}
+
+.btn-outline {
+  background-color: transparent;
+  border: 1px solid var(--sec-text-color);
+}
+
+/*Backgrounds $ colored buttons*/
+.bg-primary, .btn-primary {
+    background-color: var(--prim-bg-color);
+    color: var(--sec-text-color);
+}
+
+.bg-secondary, .btn-secondary {
+    background-color: var(--sec-bg-color);
+    color: var(--sec-text-color);
+}
+
+.bg-light, .btn-light {
+    background-color: var(--sec-text-color);
+    color: var(--prim-text-color);
+}
+
+.bg-grey, .btn-grey {
+    background-color: #DDDDDD;
+    color: var(--prim-text-color);
+}
+
+.bg-dark, .btn-dark {
+    background-color: var(--thi-bg-color);
+    color: var(--sec-text-color);
+}
+
+/* Text color */
+.text-primary {
+    color: var(--prim-bg-color);
+}
+
+.text-secondary{
+    color: var(--sec-bg-color);
+}
+
+.text-light {
+    color: var(--sec-text-color);
+}
+
+.text-center {
+  text-align: center;
+}
+
+
+/* Alert */
+.alert {
+    background-color: #dddddd;
+    padding: 10px 20px;
+    font-weight: bold;
+    margin: 15px 0;
+}
+
+.alert i {
+    margin-right: 10px;
+}
+
+.alert-success {
+    background-color: #5cb85c;
+    color: var(--sec-text-color);
+}
+
+/* Text sizes */
+.lead {
+    font-size: 18px;
+}
+
+.sm {
+    font-size: 0.75rem;
+}
+
+.md {
+    font-size: 1.25rem;
+}
+
+.lg {
+    font-size: 2.25rem;
+}
+
+.xl {
+    font-size: 2.75rem;
+}
+
+/* Margin */
+.my-1 {
+  margin: 1rem 0;
+}
+
+.my-2 {
+  margin: 2rem 0;
+}
+
+.my-3 {
+  margin: 2rem 0;
+}
+
+.my-4 {
+  margin: 2.5rem 0;
+}
+
+.my-5 {
+  margin: 3rem 0;
+}
+
+.m-1 {
+  margin: 1rem;
+}
+
+.m-2 {
+  margin: 2rem;
+}
+
+.m-3 {
+  margin: 2rem;
+}
+
+.m-4 {
+  margin: 2.5rem;
+}
+
+.m-5 {
+  margin: 3rem;
+}
+
+/* Padding */
+.py-1 {
+  padding: 1rem 0;
+}
+
+.py-2 {
+  padding: 2rem 0;
+}
+
+.py-3 {
+  padding: 2rem 0;
+}
+
+.py-4 {
+  padding: 2.5rem 0;
+}
+
+.py-5 {
+  padding: 3rem 0;
+}
+
+.p-1 {
+  padding: 1rem;
+}
+
+.p-2 {
+  padding: 2rem;
+}
+
+.p-3 {
+  padding: 2rem;
+}
+
+.p-4 {
+  padding: 2.5rem;
+}
+
+.p-5 {
+  padding: 3rem;
+}
